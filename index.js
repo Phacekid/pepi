@@ -8,7 +8,7 @@ import { ElectrumClient } from "@electrum-cash/network";
 
 const electrum = new ElectrumClient(projectName, "1.4.1", "bch.imaginary.cash");
 
-const port = PORT || 4000;
+const port = PORT || 5000;
 const app = express();
 app.use(cors());
 app.use(express.json());
